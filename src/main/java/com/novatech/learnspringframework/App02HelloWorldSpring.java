@@ -1,5 +1,7 @@
 package com.novatech.learnspringframework;
 
+import java.util.Arrays;
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App02HelloWorldSpring {
@@ -25,10 +27,19 @@ public class App02HelloWorldSpring {
 		
 		System.out.println(context.getBean("address2"));
 		
-		//System.out.println(context.getBean(Address.class)); // retrieve bean by type
+		System.out.println(context.getBean(Address.class)); // retrieve bean by type
 		
+		System.out.println(context.getBean(Person.class)); 
 		
+		System.out.println(context.getBean("person5Qualifier"));
 		
+		//displaying all the beans
+//		Arrays.stream(context.getBeanDefinitionNames()).forEach((e) -> {
+//			System.out.println(e);
+//		}); 
+		
+		//this is called a method reference and it gives the same result as the code above
+//		Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println); 
 	}
 
 }
