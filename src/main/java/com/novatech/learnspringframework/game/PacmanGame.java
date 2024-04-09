@@ -1,5 +1,9 @@
 package com.novatech.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
+// this is a component that spring will manage
+@Component
 public class PacmanGame implements GamingConsole {
 	public void up() {
 		System.out.println("up");
