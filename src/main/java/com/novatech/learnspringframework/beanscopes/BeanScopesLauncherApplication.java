@@ -1,4 +1,4 @@
-package com.novatech.learnspringframework.examples.e1;
+package com.novatech.learnspringframework.beanscopes;
 
 import java.util.Arrays;
 

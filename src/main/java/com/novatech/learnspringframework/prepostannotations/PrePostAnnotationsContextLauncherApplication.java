@@ -1,4 +1,4 @@
-package com.novatech.learnspringframework.examples.f1;
+package com.novatech.learnspringframework.prepostannotations;
 
 import java.util.Arrays;
 

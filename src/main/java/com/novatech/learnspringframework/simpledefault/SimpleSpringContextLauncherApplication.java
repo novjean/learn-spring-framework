@@ -1,4 +1,4 @@
-package com.novatech.learnspringframework.examples.a0;
+package com.novatech.learnspringframework.simpledefault;
 
 import java.util.Arrays;
 

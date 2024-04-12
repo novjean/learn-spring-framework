@@ -1,18 +1,17 @@
-package com.novatech.learnspringframework.examples.g1;
+package com.novatech.learnspringframework.cdi;
 
 import java.util.Arrays;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
 //@Component
 @Named
+// named is replacement for component
 class BusinessService {
 	private DataService dataService;
 	
@@ -23,6 +22,7 @@ class BusinessService {
 	
 	//@Autowired
 	@Inject
+	// inject is replacement for autowired
 	public void setDataService(DataService dataService) {
 		System.out.println("setter injection");
 		this.dataService = dataService;

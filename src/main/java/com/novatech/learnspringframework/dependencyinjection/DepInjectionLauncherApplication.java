@@ -1,4 +1,4 @@
-package com.novatech.learnspringframework.examples.a1;
+package com.novatech.learnspringframework.dependencyinjection;
 
 import java.util.Arrays;
 

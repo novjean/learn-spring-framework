@@ -1,4 +1,4 @@
-package com.novatech.learnspringframework.examples.d1;
+package com.novatech.learnspringframework.lazyinitialization;
 
 import java.util.Arrays;
 
